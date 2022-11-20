@@ -47,7 +47,9 @@ spoofHUM()
 
 ### Setting Gravity
 - [x] Smart Anti-Cheat
+
 Expected Return: (Nil) none
+
 Expected Input: (Integer) Replace x with the gravity you want to set Workspace to.
 
 Will spoof Workspace before setting the gravity.
@@ -62,7 +64,9 @@ Gravity(0)
 
 ### Setting WalkSpeed
 - [x] Smart Anti-Cheat
+
 Expected Return: (Nil) none
+
 Expected Input: (Integer) Replace x with the WalkSpeed you want to set LocalPlayer's humanoid to.
 
 Will spoof LocalPlayer's humanoid before setting the WalkSpeed.
@@ -77,7 +81,9 @@ WalkSpeed(100)
 
 ### Setting JumpPower
 - [x] Smart Anti-Cheat
+
 Expected Return: (Nil) none
+
 Expected Input: (Integer) Replace x with the JumpPower you want to set LocalPlayer's humanoid to.
 
 Will spoof LocalPlayer's humanoid before setting the JumpPower.
@@ -92,8 +98,11 @@ JumpPower(100)
 
 ### Teleporting LocalPlayer
 - [x] Smart Anti-Cheat
+
 Expected Return: (Integer) true
+
 Expected Input 1: (CFrame) Replace CFrame with the CFrame you want to teleport LocalPlayer to.
+
 Expected Input 2: (Integer) Replace Refresh with true to force the player to reset before teleporting. Set to false otherwise.
 
 Will return true once it's completed.
@@ -103,8 +112,11 @@ TpTo(CFrame, Refresh)
 
 ### Tweening LocalPlayer
 - [ ] Smart Anti-Cheat
+
 Expected Return: (Integer) true
+
 Expected Input 1: (CFrame) Replace CFrame with the CFrame you want to tween LocalPlayer to.
+
 Expected Input 2: (Integer) Replace Speed with how many studs per second you want to LocalPlayer to tween at.
 
 Will return true once it's completed.
@@ -114,6 +126,7 @@ TweenTo(CFrame, Speed)
 
 ### Replacing LocalPlayer's Humanoid
 - [x] Smart Anti-Cheat
+
 Expected Return: (Instance) LocalPlayer's new humanoid.
 
 Will return LocalPlayer's new humanoid once it's completed.
@@ -123,6 +136,7 @@ ReplaceHUM()
 
 ### Netless for LocalPlayer
 - [ ] Smart Anti-Cheat
+
 Expected Return: (Integer) true
 
 Will return true once it's completed.
